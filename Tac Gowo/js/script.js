@@ -1,6 +1,7 @@
+/* Initializing AOS library (to enable scroll animations in our HTML) */
 AOS.init();
 
-/* This function is for navbar */
+/* This function is for navbar (to do something everytime the viewport width is changed) */
 
 function myFunction(x) {
     if (x.matches) { // If media query matches
@@ -69,6 +70,8 @@ window.onscroll = function() {
 const main = document.querySelector('main');
 let mainY = main.getBoundingClientRect().top;
 let mainX = main.getBoundingClientRect().left;
+
+/* Using flickity to make a carousel (testimony) */
 
 let flkty = new Flickity( '.testimoni__items', {
     // options

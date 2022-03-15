@@ -144,8 +144,11 @@ header nav a{
 }
 
 .about-us img {
+    -webkit-box-shadow: 5px 10px 20px;
+    -ms-box-shadow: 5px 10px 20px;
+    -o-box-shadow: 5px 10px 20px;
     box-shadow: 5px 10px 20px;
-    z-index: -1;
+    z-index: -100;
 }
 
 @media screen and (min-width: 300px) {
@@ -322,11 +325,14 @@ header nav a{
         flex-flow: column wrap;
         padding: 0 1.2rem;
         margin-bottom: 5em;
+        z-index: -1;
     }
 
     .container__soko-item img {
         max-width: 300px;
         margin: 0 auto;
+        z-index: -1;
+        transition: ease 0.4s;
     }
 
     .container__soko-item img:last-of-type {
@@ -614,7 +620,7 @@ header nav a{
         display: flex;
         flex-flow: row nowrap;
         gap: 5.02vw;
-        max-width: 945px;
+        max-width: 1000px;
     }
 
     .about-us img {
@@ -683,6 +689,7 @@ header nav a{
 @media screen and (min-width: 750px) {
     .about-us img {
         max-width: 340px;
+        height: 100%;
     }
     
     .about-us + img {
