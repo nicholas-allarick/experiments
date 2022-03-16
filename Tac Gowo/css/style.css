@@ -556,6 +556,14 @@ header nav a{
         flex-flow: row nowrap;
     }
 
+    .icon__item {
+        transition: ease 0.3s;
+    }
+
+    .icon__item:hover {
+        transform: scale(1.2);
+    }
+
     .icon__item a{
         display: inline-block;
         margin-right: 1rem;
@@ -594,6 +602,7 @@ header nav a{
         width: 100vw;
         margin: 0 auto;
         padding-bottom: 1rem;
+        text-align: center;
     }
     
 }
@@ -694,7 +703,6 @@ header nav a{
     
     .about-us + img {
         display: block;
-        transform: scale(minmax(1,2));
     }
 
     .banner__caption {
@@ -823,6 +831,14 @@ header nav a{
         font-size: 2.5rem;
         margin-bottom: 1em;
     }
+
+
+    #map {
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+    }
+
 
 } 
 
