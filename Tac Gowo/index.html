@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,6 +23,11 @@
 
     <!-- Importing custom JavaScript file -->
     <script defer src="js/script.js"></script>
+
+    <!-- For Google Maps integration -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAETU4-_9KnA3BxKoMTXQzAiLxOyFuFLTg&callback=initMap">
+    </script>
 
 </head>
 <body>
@@ -49,7 +54,7 @@
     </div>
 
     <div class="hero__container" id="beranda">
-        <img src="assets/mico-icon.png" alt="Mascot name - Mico" class="mico">
+        <img src="assets/mico-icon.png" alt="Nama Mascot - Mico" class="mico">
         <h1 class="hero__title">Mie Taco Pertama di Indonesia !!!</h1>
         <p class="hero__exp">Coba sekarang! Taco unik menggunakan mi kuning sebagai kulit luaran, dipadukan dengan cita rasa khas Indonesia.</p>
         <a href="https://www.tokopedia.com/tacgowo" target="blank"><button class="cta">Belanja Sekarang!</button></a>
@@ -65,38 +70,38 @@
             </div>
         </section>
 
-        <img src="assets/spices-bg/about-us.png" alt="spice background accessories" class="bg1">
+        <img src="assets/spices-bg/about-us.png" alt="Aksesoris Background (Rempah)" class="bg1">
 
         <section class="menu" id="menu">
             <div class="menu__title-container">
-                <img src="assets/mico-icon.png" alt="Mascot name - Mico" class="mico">
+                <img src="assets/mico-icon.png" alt="Nama Mascot - Mico" class="mico">
                 <h1 class="menu__title">Menu</h1>
             </div>
 
             <div class="menu__main-container">
                 <div class="container__soko-item">
-                    <img src="assets/soko-jogja.png" alt="Soko Jogja variant" class="soko-jogja" data-aos="fade-right">
+                    <img src="assets/soko-jogja.png" alt="Varian Soko Jogja" class="soko-jogja" data-aos="fade-right">
                     <div class="group_soko" data-aos="fade-right">
                         <h2 class="title__soko-item">Soko Jogja</h2>
                         <p class="explanation__soko-item">Garingnya kulit geprek, lembut dan gurihnya ayam, digeprek dengan sambal bawang yang wangi sekali!</p>
                     </div>
                 </div>
                 <div class="container__soko-item">
-                    <img src="assets/soko-bali.png" alt="Soko Bali variant" class="soko-bali" data-aos="fade-left">
+                    <img src="assets/soko-bali.png" alt="Varian Soko Bali" class="soko-bali" data-aos="fade-left">
                     <div class="group_soko" data-aos="fade-left">
                         <h2 class="title__soko-item">Soko Bali</h2>
                         <p class="explanation__soko-item">Lembutnya ayam suwir, dipadukan dengan gurih dan segarnya sambal matah langsung bikin nagih banget!</p>
                     </div>
                 </div>
                 <div class="container__soko-item">
-                    <img src="assets/soko-sumbar.png" alt="Soko Sumbar variant" class="soko-sumbar" data-aos="fade-right">
+                    <img src="assets/soko-sumbar.png" alt="Varian Soko Sumbar" class="soko-sumbar" data-aos="fade-right">
                     <div class="group_soko" data-aos="fade-right">
                         <h2 class="title__soko-item">Soko Sumbar</h2>
                         <p class="explanation__soko-item">Bumbu Ayam Rendang yang dimasak dengan rempah-rempah lama lalala sampe meresap</p>
                     </div>
                 </div>
                 <div class="container__soko-item" data-aos="fade-down">
-                    <img src="assets/soko-nusantara.png" alt="Soko Nusantara variant" class="soko-nusantara">
+                    <img src="assets/soko-nusantara.png" alt="Varian Soko Nusantara" class="soko-nusantara">
                     <h2 class="title__soko-item">Soko Nusantara</h2>
                     <p class="explanation__soko-item">
                         Perpaduan dari ketiga rasa yang merupakan terfavorit sepanjang masa para Konco Mico!!!
@@ -118,7 +123,7 @@
             <div class="testimoni__items">
                 <div class="testimoni__item">
                     <div class="bio__container">
-                        <img src="assets/why-us/nusantara.jpg" alt="Odetta testimoni">
+                        <img src="assets/why-us/nusantara.jpg" alt="testimoni">
                         <h2 class="name">Felicia, 19 Tahun</h2>
                         <address>Tangerang</address>
                     </div>
@@ -126,7 +131,7 @@
                 </div>
                 <div class="testimoni__item">
                     <div class="bio__container">
-                        <img src="assets/why-us/nusantara.jpg" alt="Odetta testimoni">
+                        <img src="assets/why-us/nusantara.jpg" alt="testimoni">
                         <h2 class="name">Felicia, 19 Tahun</h2>
                         <address>Tangerang</address>
                     </div>
@@ -134,7 +139,7 @@
                 </div>
                 <div class="testimoni__item">
                     <div class="bio__container">
-                        <img src="assets/why-us/nusantara.jpg" alt="Odetta testimoni">
+                        <img src="assets/why-us/nusantara.jpg" alt="testimoni">
                         <h2 class="name">Felicia, 19 Tahun</h2>
                         <address>Tangerang</address>
                     </div>
@@ -142,7 +147,7 @@
                 </div>
                 <div class="testimoni__item">
                     <div class="bio__container">
-                        <img src="assets/why-us/nusantara.jpg" alt="Odetta testimoni">
+                        <img src="assets/why-us/nusantara.jpg" alt="testimoni">
                         <h2 class="name">Felicia, 19 Tahun</h2>
                         <address>Tangerang</address>
                     </div>
@@ -159,17 +164,17 @@
             <div class="container">
                 <div class="alasan">
                     <h2>Bahan terbaik</h2>
-                    <img src="assets/why-us/petani.jpg" alt="Farmer">
+                    <img src="assets/why-us/petani.jpg" alt="Petani">
                     <p>Dengan bahan kualitas terbaik, kami berdedikasi menyajikan tac gowo dengan tekstur dan rasa yang menggugah selera.</p>
                 </div>
                 <div class="alasan">
                     <h2>Penyajian<br>Unik dan Instagrammable</h2>
-                    <img src="assets/why-us/packaging.jpg" alt="Tac Gowo packaging design">
+                    <img src="assets/why-us/packaging.jpg" alt="Desain kemasan Tac Gowo">
                     <p>Konsep penyajian menggunakan besek bambu dan dipadukan dengan wrapping paper. Pemilihan packaging ini memadukan konsep tradisional dan modern.</p>
                 </div>
                 <div class="alasan">
                     <h2>Selera Nusantara</h2>
-                    <img src="assets/why-us/nusantara.jpg" alt="Indonesian cuisine">
+                    <img src="assets/why-us/nusantara.jpg" alt="Masakan khas Indonesia">
                     <p>Kami memadukan rasa khas nusantara dengan sentuhan modern yang rasanya tidak perlu dipertanyakan lagi.</p>
                 </div>
             </div>
@@ -220,7 +225,7 @@
             </div>
         </div>
 
-        <p class="copyright">&copy; Copyright 2022, Tac Gowo | Website by Nicholas Allarick</p>
+        <p class="copyright">&copy; Copyright 2022, Tac Gowo</p>
     </footer>
 </body>
 </html>
