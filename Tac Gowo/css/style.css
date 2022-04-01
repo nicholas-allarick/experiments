@@ -636,15 +636,16 @@ header nav a{
         margin-top: 2rem;
         display: flex;
         flex-flow: row nowrap;
-        -webkit-column-gap: 5.02vw;
+/*      -webkit-column-gap: 5.02vw;
         -o-column-gap: 5.02vw;
-        column-gap: 5.02vw;
+        column-gap: 5.02vw; */
         max-width: 1000px;
     }
 
     .about-us img {
         width: 40%;
         max-width: 250px;
+        margin-right: 5.02vw;
     }
 
     .about-us__caption {
