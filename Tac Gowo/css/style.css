@@ -636,7 +636,9 @@ header nav a{
         margin-top: 2rem;
         display: flex;
         flex-flow: row nowrap;
-        gap: 5.02vw;
+        -webkit-column-gap: 5.02vw;
+        -o-column-gap: 5.02vw;
+        column-gap: 5.02vw;
         max-width: 1000px;
     }
 
