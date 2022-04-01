@@ -415,6 +415,7 @@ header nav a{
         padding: 1.5rem;
         border-radius: 10px;
         width: 325px;
+        height: 250px;
         margin: 3rem auto;
     }
 
@@ -432,8 +433,15 @@ header nav a{
 
     .bio__container img {
         width: 100px;
+        height: 80px;
+        object-fit: cover;
         grid-row: span 2;
         align-self: center;
+        border-radius: 7px;
+    }
+
+    .testimoni__item:last-of-type .bio__container img {
+        object-position: 50% 5%;
     }
 
     .bio__container .name {
@@ -601,8 +609,8 @@ header nav a{
         color: white;
         width: 100vw;
         margin: 0 auto;
-        text-align: center;
         padding-bottom: 1rem;
+        text-align: center;
     }
     
 }
